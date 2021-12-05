@@ -1,0 +1,50 @@
+{
+    "name": "mshm/laravel-mobile-auth",
+    "description": "simple mobile authentication for laravel framework",
+    "keywords": [
+        "mshm",
+        "laravel mobile auth",
+        "mobile auth",
+        "mohammad sh m"
+    ],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MShM",
+            "email": "mshm@gmail.com",
+            "homepage": "https://mshm.com",
+            "role": "company"
+        },
+        {
+            "name": "mohammad sh m",
+            "email": "mohammad@gmail.com",
+            "homepage": "https://mohammad.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": ">=6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mshm\\LaravelMobileAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mshm\\LaravelMobileAuth\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
