@@ -3,7 +3,6 @@
 namespace Mshm\LaravelMobileAuth\Facade;
 
 use Illuminate\Support\Facades\Facade;
-use Mshm\LaravelMobileAuth\LaravelMobileAuth;
 
 /**
  * Class LaravelMobileAuthFacade
